@@ -1,8 +1,8 @@
-📘 Okul Yönetim Sistemi
+Okul Yönetim Sistemi
 Basit bir okul yönetim sistemi API’si.
 Öğrenciler, dersler ve notların yönetilebildiği; Java’nın temel, ileri ve modern konularını kapsayan bir örnek uygulama.
 
-🎯 Amaç
+Amaç
 Bu proje, Java dersinde işlenen aşağıdaki konuları uygulamalı olarak göstermek için geliştirilmiştir:
 
 Temel Java & OOP
@@ -21,7 +21,7 @@ Sıralama algoritmaları
 
 Popüler framework ve kütüphaneler (Spring Boot, Maven/Gradle)
 
-🛠️ Kullanılan Teknolojiler
+Kullanılan Teknolojiler
 Java 17
 
 Spring Boot
@@ -34,7 +34,7 @@ Maven/Gradle
 
 Lombok (opsiyonel)
 
-🚀 Çalıştırma
+Çalıştırma
 Local çalıştırmak için:
 bash
 Kopyala
@@ -49,8 +49,8 @@ Düzenle
 Uygulama http://localhost:8080 adresinde çalışır.
 Veritabanı in-memory olduğu için her başlatmada sıfırlanır.
 
-🌐 API Endpointleri
-🧑 Öğrenciler
+API Endpointleri
+Öğrenciler
 Method	URL	Açıklama
 GET	/students	Tüm öğrencileri getir
 POST	/students	Yeni öğrenci ekle
@@ -59,17 +59,17 @@ GET	/students/sorted	Öğrencileri ortalamaya göre sırala
 GET	/students/allWrapped	Generic wrapper ile getir
 GET	/students/async	Multithread ile asenkron getir
 
-📚 Dersler
+Dersler
 Method	URL	Açıklama
 GET	/courses	Tüm dersleri getir
 POST	/courses	Yeni ders ekle
 
-📝 Notlar
+Notlar
 Method	URL	Açıklama
 POST	/grades	Yeni not ekle
 GET	/grades/student/{id}	Belirli öğrencinin notlarını getir
 
-📋 Test JSON Örnekleri
+Test JSON Örnekleri
 Öğrenci ekleme:
 json
 Kopyala
@@ -93,17 +93,17 @@ Düzenle
   "course": { "id": 1 },
   "score": 95
 }
-📦 Gereksinimleri Karşıladığı Konular
-✅ Temel Java Tekrarları
-✅ İleri Java konuları
-✅ Java 8 Lambda & Streams
-✅ OOP & Koleksiyonlar
-✅ Sıralama algoritması
-✅ Generic programlama
-✅ Multithread programlama
-✅ Veritabanı bağlantısı (H2)
-✅ J2EE temelleri & API
-✅ Spring Boot & Maven
+Gereksinimleri Karşıladığı Konular
+Temel Java Tekrarları
+İleri Java konuları
+Java 8 Lambda & Streams
+OOP & Koleksiyonlar
+Sıralama algoritması
+Generic programlama
+Multithread programlama
+Veritabanı bağlantısı (H2)
+J2EE temelleri & API
+Spring Boot & Maven
 
-👨‍💻 GitHub Repo
-📌 https://github.com/dalgcmert/okul
+GitHub Repo
+https://github.com/dalgcmert/okul
